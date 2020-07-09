@@ -7,26 +7,59 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:#FFF;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #333;
 }
 
 .App-link {
   color: #09d3ac;
 }
 
-.about {
-  margin-top: 10%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.balance{
+  font-size: 3em;
 }
 
+.top-right-corner{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 580px;
+  font: 0.9em white Arial;
+  z-index: 999;
+}
+.top-left-corner{
+  position: fixed;
+  top: 0;
+  left: 100;
+  width: 150px;
+  font: 0.9em white Arial;
+}
+.acc-head{
+  font-size: 3em;
+  position: fixed;
+  right:100px;
+  top:30px;
+}
+.address-list{
+  list-style-type: none;
+  font: 0.8em;
+  justify-content: right;
+}
+.recent-txns{
+  margin-top: 50px;
+}
+.table-primary-header{
+  color: red;
+  font-size:1.1rem;
+}
+#swap-btn{
+  border:1px solid #db3d44;
+  background-color: white;
+  color:#db3d44;
+}
