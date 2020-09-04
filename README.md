@@ -1,29 +1,18 @@
-# React Electron
+# Dapp Store
+A digital asset wallet, Use it to create, send and deploy tokens on ethereum network
 
-*Easy-to-understand-and-use boilerplate code for creating an Electron desktop app simply using Reactjs. Includes React Router.*
-<br>
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [Electron](https://electronjs.org/), and [electron-builder](https://github.com/electron-userland/electron-builder).
+## Account
+![acount home](./doc_images/accounts.png)
+**Generating a new account**
+![generate](./doc_images/account_generate.png)
+## Wallet
+![wallet](./doc_images/wallet.png)
+**transfer tokens**
+![transfer](./doc_images/transfer.png)
+## Exchange
+![Exchange](./doc_images/exchange.png)
 
-## Build Electron App With React - Video Tutorial
-[Video Tutorial at YouTube](https://www.youtube.com/playlist?list=PLASldBPN_pkCXhDdahLI2RIRy1tmGTeit)
 
-## Usage
-1. Clone this repository.
-```
-git clone https://github.com/willjw3/react-electron.git <your-project-name>
-```
-2. If you havent already, install Yarn globally.
-```
-npm install -g yarn
-```
-3. Navigate into project root and install dependencies.
-```
-cd <your-project-name> && npm install
-```
-4. Run dev server.
-```
-npm run start
-```
 ## Deploy to Desktop
 1. Run the build process
 ```
@@ -35,11 +24,6 @@ npm run build
 
 Add a 256 x 256 .png or .ico image in your public folder. It should be either `icon.ico` or `icon.png`. Update the `icon` property in your `package.json` if necessary. Currently, it uses an image called `icon.png`, which is a graphic of a coffee cup. You'll only see this in production. For more info, see the [electron-builder documentation](https://www.electron.build/icons)
 
-## Contribute
-Feel free to submit an issue or pull request anytime. If a change is made to the codebase with your PR, you'll be listed as a contributor.
-
-### Contributors
-@willjw3 | https://github.com/willjw3
 
 
 
